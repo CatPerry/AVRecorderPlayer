@@ -13,7 +13,7 @@ const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
     'Never panic, never worry. Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu' + 'All is well',
+    'Shake or press menu button for dev menu,\n' + 'All is well',
 });
 
 type Props = {};
@@ -37,13 +37,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#58CACF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
+    color: '#FFFFFF',
   },
   instructions: {
+    fontSize: 20,
     textAlign: 'center',
-    color: '#333333',
+    color: '#FFFFFF',
     marginBottom: 5,
   },
 });
